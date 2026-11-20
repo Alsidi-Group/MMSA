@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ثيم التطبيق: خط Tajawal الأنيق على كل الواجهات والمكونات -->
+    <style name="MMSA" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <!-- نوافذ منبثقة فاتحة بنفس الخط -->
+    <style name="MMSA_Dialog_Light" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <!-- نوافذ منبثقة داكنة بنفس الخط (وضع الليل) -->
+    <style name="MMSA_Dialog_Dark" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+</resources>
